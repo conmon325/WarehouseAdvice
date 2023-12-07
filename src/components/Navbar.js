@@ -10,20 +10,10 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
                 rel="noopener noreferrer"
             >
                 <img src={logo} className="App-logo" alt="logo" />
-                Dapp University
+                Warehouse Advice
             </a>
 
-            {account ? (
-                <a
-                    href={`${explorerURL}/address/${account}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="button nav-button btn-sm mx-4">
-                    {account.slice(0, 5) + '...' + account.slice(38, 42)}
-                </a>
-            ) : (
-                <button onClick={web3Handler} className="button nav-button btn-sm mx-4">Connect Wallet</button>
-            )}
+           
         </nav>
     )
 }

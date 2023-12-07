@@ -9,6 +9,7 @@ import instagram from '../images/socials/instagram.svg'
 import opensea from '../images/socials/opensea.svg'
 import showcase from '../images/showcase.png'
 import '../App.css'
+import logo from '../images/logo.png'
 
 // Import Components
 import Navbar from './Navbar'
@@ -63,7 +64,7 @@ function App() {
 
 		} catch (error) {
 			setIsError(true)
-			setMessage("Contract not deployed to current network, please change network in MetaMask")
+			setMessage(" ")
 		}
 	}
 
@@ -170,7 +171,7 @@ function App() {
 					<Row className='header my-3 p-3 mb-0 pb-0'>
 						<Col xs={12} md={12} lg={8} xxl={8}>
 							<h1>Warehouse Advice</h1>
-							<p className='sub-header'>Availble on 05 / 26 / 22</p>
+							<p className='sub-header'>Keeping Tenants Updated</p>
 						</Col>
 						<Col className='flex social-icons'>
 							<a
@@ -194,18 +195,19 @@ function App() {
 						</Col>
 					</Row>
 
+
 					<Row className='flex m-3'>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
 							<img
-								src={`https://gateway.pinata.cloud/ipfs/QmNN9ATnagEMrC9V5Up9c8KUrZGDiCBQVS58x3ojktg2Lt/${counter}.png`}
+								src={logo}
 								alt="Crypto Punk"
-								className='showcase'
+								className='logo'
 							/>
 						</Col>
 						<Col md={5} lg={4} xl={5} xxl={4}>
 							{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} className='countdown mx-3' />}
 							<p className='text'>
-								By attending the masterclass, you'll learn how to generate NFT images, upload to IPFS, create your NFT contract, and use OpenSea!
+								Browse our maps & sign up for a free consultation for more information!
 							</p>
 							<a href="#about" className='button mx-3'>Learn More!</a>
 						</Col>
@@ -215,38 +217,16 @@ function App() {
 				<section id='about' className='about'>
 
 					<Row className='flex m-3'>
-						<h2 className='text-center p-3'>About the Collection</h2>
+						<h2 className='text-center p-3'>Market Information</h2>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<img src={showcase} alt="Multiple Crypto Punks" className='showcase' />
+							<img src={logo} alt="Multiple Crypto Punks" className='logo' />
 						</Col>
 						<Col md={5} lg={4} xl={5} xxl={4}>
 							{isError ? (
 								<p>{message}</p>
 							) : (
 								<div>
-									<h3>Mint your NFT in</h3>
-									{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} className='countdown' />}
-									<ul>
-										<li>1,000 generated punked out images using an art generator</li>
-										<li>Free minting on Rinkeby testnet</li>
-										<li>Viewable on Opensea shortly after minting</li>
-									</ul>
-
-									{isMinting ? (
-										<Spinner animation="border" className='p-3 m-2' />
-									) : (
-										<button onClick={mintNFTHandler} className='button mint-button mt-3'>Mint</button>
-									)}
-
-									{ownerOf.length > 0 &&
-										<p><small>View your NFT on
-											<a
-												href={`${openseaURL}/assets/${openPunks._address}/${ownerOf[0]}`}
-												target='_blank'
-												style={{ display: 'inline-block', marginLeft: '3px' }}>
-												OpenSea
-											</a>
-										</small></p>}
+									
 								</div>
 							)}
 						</Col>

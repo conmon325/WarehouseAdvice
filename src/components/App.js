@@ -219,7 +219,7 @@ function App() {
 					<Row className='flex m-3'>
 						<h2 className='text-center p-3'>Market Insights</h2>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="https://conmon.maps.arcgis.com/apps/Embed/index.html?webmap=6818add32bb14ebf98e7826fcfbf30c6&extent=-79.9287,38.396,-69.5576,41.8639&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" height="400" width="800"></iframe>
+							<iframe src="//conmon.maps.arcgis.com/apps/Embed/index.html?webmap=564443b4886e4d65b2d6a87872057e4c&extent=-77.1948,38.9331,-70.7184,41.4215&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" height="800" width="1200"></iframe>
 						</Col>
 						<Col md={5} lg={4} xl={5} xxl={4}>
 							{isError ? (

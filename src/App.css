@@ -62,15 +62,15 @@ main {
 h1 {
     font-family: "Arial";
     font-weight: 700;
-    font-size: clamp(3rem, 10vw, 10rem);
-    transform: rotate(-4deg);
+    font-size: clamp(3rem, 6vw, 10rem);
+    transform: rotate(0deg);
     padding-left: .8em;
 }
 
 h2 {
     font-family: "Arial";
-    font-weight: 700;
-    font-size: clamp(2rem, 5vw, 5rem);
+    font-weight: 600;
+    font-size: clamp(2rem, 2vw, 5rem);
     padding-left: .8em;
 }
 
@@ -80,10 +80,10 @@ h3 {
 
 .sub-header {
     font-family: "Arial";
-    font-weight: 700;
-    font-size: clamp(2rem, 5vw, 4rem);
-    transform: rotate(-4deg) translateX(2.5em) translateY(-0.5em);
-    padding-left: .8em;
+    font-weight: 500;
+    font-size: clamp(2rem, 3vw, 4rem);
+    transform: rotate(0deg) translateX(0em) translateY(-0.5em);
+    padding-left: 0em;
 }
 
 .countdown {

@@ -171,7 +171,7 @@ function App() {
 					<Row className='header my-3 p-3 mb-0 pb-0'>
 						<Col xs={12} md={12} lg={8} xxl={8}>
 							<h1>Warehouse Advice</h1>
-							<p className='sub-header'>Keeping Tenants Updated</p>
+							<p className='sub-header'>Tenants' #1 Database</p>
 						</Col>
 						<Col className='flex social-icons'>
 							<a
@@ -196,22 +196,22 @@ function App() {
 					</Row>
 
 
-					<Row className='flex m-3'>
+					<Row className='flex m-2'>
+						<h2 className='text-center p-0'>NJ Turnpike Submarket Stats</h2>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<img
-								src={logo}
-								alt="Crypto Punk"
-								className='showcase'
-							/>
+							<iframe src="//conmon.maps.arcgis.com/apps/Embed/index.html?webmap=8a8314f7f22a4a20bbabcdf906c7800d&extent=-76.2032,39.4097,-72.1465,41.1053&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" height="800" width="1200"></iframe>
 						</Col>
 						<Col md={5} lg={4} xl={5} xxl={4}>
-							{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} className='countdown mx-3' />}
-							<p className='text'>
-								Browse our maps & sign up for a free consultation for more information!
-							</p>
-							<a href="#about" className='button mx-3'>Learn More!</a>
+							{isError ? (
+								<p>{message}</p>
+							) : (
+								<div>
+									
+								</div>
+							)}
 						</Col>
 					</Row>
+					
 
 				</section>
 				<section id='about' className='about'>

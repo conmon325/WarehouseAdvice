@@ -13,6 +13,16 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
             </a>
 
            
+            
+            <a
+            
+                className="button nav-button btn-sm mx-4"
+                href="#about"
+                target="_blank"
+                rel="noopener noreferrer"
+            >MORE FREE DATA
+            </a>
+           
         </nav>
     )
 }

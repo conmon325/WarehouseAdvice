@@ -175,7 +175,7 @@ function App() {
 						</Col>
 						<Col className='flex social-icons'>
 							<a
-								href="https://twitter.com/DappUniversity"
+								href="https://twitter.com/WarehouseAdvice"
 								target='_blank'
 								className='circle flex button'>
 								<img src={twitter} alt="Twitter" />
@@ -186,12 +186,7 @@ function App() {
 								className='circle flex button'>
 								<img src={instagram} alt="Instagram" />
 							</a>
-							<a
-								href={`${openseaURL}/collection/${config.PROJECT_NAME}`}
-								target='_blank'
-								className='circle flex button'>
-								<img src={opensea} alt="Opensea" />
-							</a>
+							
 						</Col>
 					</Row>
 
@@ -199,7 +194,23 @@ function App() {
 					<Row className='flex m-2'>
 						<h2 className='text-center p-0'>NJ Turnpike Submarket Stats</h2>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="//conmon.maps.arcgis.com/apps/Embed/index.html?webmap=8a8314f7f22a4a20bbabcdf906c7800d&extent=-76.2032,39.4097,-72.1465,41.1053&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" height="800" width="1200"></iframe>
+							<iframe src="//conmon.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=726de5c82a54461e94df3af446189a53&extent=-76.2032,39.4097,-72.1465,41.1053&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" height="800" width="1200"></iframe>
+						</Col>
+						<Col md={5} lg={4} xl={5} xxl={4}>
+							{isError ? (
+								<p>{message}</p>
+							) : (
+								<div>
+									
+								</div>
+							)}
+						</Col>
+					</Row>
+
+					<Row className='flex m-2'>
+						<h2 className='text-center p-0'>NJ Turnpike Submarket Stats</h2>
+						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
+							<iframe src="//conmon.maps.arcgis.com/apps/mapviewer/index.html?webmap=d2bdc94ba81f46a18ad80a8838328cd7&extent=-76.2032,39.4097,-72.1465,41.1053&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" height="800" width="1200"></iframe>
 						</Col>
 						<Col md={5} lg={4} xl={5} xxl={4}>
 							{isError ? (

@@ -18,6 +18,8 @@ import Navbar from './Navbar'
 import OpenPunks from '../abis/OpenPunks.json'
 import config from '../config.json'
 
+
+
 function App() {
 	const [web3, setWeb3] = useState(null)
 	const [openPunks, setOpenPunks] = useState(null)
@@ -169,6 +171,10 @@ function App() {
 				<section id='welcome' className='welcome'>
 
 					<Row className='header my-3 p-3 mb-0 pb-0'>
+						
+						
+
+
 						<Col xs={12} md={12} lg={8} xxl={8}>
 							<h1>Warehouse Advice</h1>
 							<p className='sub-header'>Tenants' #1 Database</p>

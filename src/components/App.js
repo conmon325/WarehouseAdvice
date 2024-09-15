@@ -171,36 +171,17 @@ function App() {
 				<section id='welcome' className='welcome'>
 
 					<Row className='header my-3 p-3 mb-0 pb-0'>
+					
+						<h1>NJ Warehouse Market Data</h1>
 						
-						
-
-
-						<Col xs={12} md={12} lg={8} xxl={8}>
-							<h1>Warehouse Advice</h1>
-							<p className='sub-header'>Tenants' #1 Database</p>
-						</Col>
-						<Col className='flex social-icons'>
-							<a
-								href="https://twitter.com/WarehouseAdvice"
-								target='_blank'
-								className='circle flex button'>
-								<img src={twitter} alt="Twitter" />
-							</a>
-							<a
-								href="#"
-								target='_blank'
-								className='circle flex button'>
-								<img src={instagram} alt="Instagram" />
-							</a>
-							
-						</Col>
 					</Row>
 
 
+
 					<Row className='flex m-2'>
-						<h2 className='text-center p-0'>NJ Turnpike Submarket Stats</h2>
+						<h2 className='text-center p-0'>Interactive Map</h2>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="//conmon.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=726de5c82a54461e94df3af446189a53&extent=-76.2032,39.4097,-72.1465,41.1053&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" height="800" width="1200"></iframe>
+							<iframe src="//conmon.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=726de5c82a54461e94df3af446189a53&extent=-76.2032,39.4097,-72.1465,41.1053&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" height="1200" width="400"></iframe>
 						</Col>
 						<Col md={5} lg={4} xl={5} xxl={4}>
 							{isError ? (
@@ -213,28 +194,32 @@ function App() {
 						</Col>
 					</Row>
 
-					<Row className='flex m-2'>
-						<h2 className='text-center p-0'>NJ Turnpike Submarket Stats</h2>
+
+					<Row className='header my-3 p-3 mb-0 pb-0'>
+						
+						<h2 className='text-center p-0'>Video Collection</h2>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="//conmon.maps.arcgis.com/apps/mapviewer/index.html?webmap=d2bdc94ba81f46a18ad80a8838328cd7&extent=-76.2032,39.4097,-72.1465,41.1053&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" height="800" width="1200"></iframe>
+							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7189622504812892160" height="800" width="400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 						</Col>
-						<Col md={5} lg={4} xl={5} xxl={4}>
-							{isError ? (
-								<p>{message}</p>
-							) : (
-								<div>
-									
-								</div>
-							)}
+						
+						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
+							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7207009714264510464" height="800" width="400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+						</Col>
+
+						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
+							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7225113647813988352" height="800" width="400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 						</Col>
 					</Row>
+					
 					
 
 				</section>
 				<section id='about' className='about'>
 
 					<Row className='flex m-3'>
-						<h2 className='text-center p-3'>Sign Up for Additional Data</h2>
+						<h2 className='text-center p-3'>Sign Up For Up-To-Date Information</h2>
+						<h2 className='text-center p-3'>or contact us 609-760-4332</h2>
+						<h2 className='text-center p-3'>Connor.Montagano@nmrk.com</h2>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
 						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmXwMBoiZP_jE5EoxtLJGV3mrZN3YEmgCJYg-8CaGcPD-8Lg/viewform?embedded=true" width="1200" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 						</Col>

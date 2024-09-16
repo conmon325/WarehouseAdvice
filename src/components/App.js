@@ -181,7 +181,7 @@ function App() {
 					<Row className='flex m-2'>
 						<h2 className='text-center p-0'>Interactive Map</h2>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="//conmon.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=726de5c82a54461e94df3af446189a53&extent=-76.2032,39.4097,-72.1465,41.1053&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light" height="1200" width="400"></iframe>
+							<iframe src="//conmon.maps.arcgis.com/apps/mapviewer/index.html?webmap=e1f50c3fdc664fa7b566073d8362f093" height="500" width="800"></iframe>
 						</Col>
 						<Col md={5} lg={4} xl={5} xxl={4}>
 							{isError ? (
@@ -194,20 +194,21 @@ function App() {
 						</Col>
 					</Row>
 
+					
 
 					<Row className='header my-3 p-3 mb-0 pb-0'>
 						
 						<h2 className='text-center p-0'>Video Collection</h2>
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7189622504812892160" height="800" width="400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7189622504812892160" height="600" width="300" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 						</Col>
 						
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7207009714264510464" height="800" width="400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7207009714264510464" height="600" width="300" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 						</Col>
 
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7225113647813988352" height="800" width="400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7225113647813988352" height="600" width="300" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 						</Col>
 					</Row>
 					

@@ -172,7 +172,7 @@ function App() {
 
 					<Row className='header my-3 p-3 mb-0 pb-0'>
 					
-						<h1>NJ Warehouse Market Data</h1>
+						<h1>Available NJ Warehouses</h1>
 						
 					</Row>
 
@@ -196,42 +196,16 @@ function App() {
 
 					
 
-					<Row className='header my-3 p-3 mb-0 pb-0'>
-						
-						<h2 className='text-center p-0'>Video Collection</h2>
-						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7189622504812892160" height="800" width="300" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
-						</Col>
-
-						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7239609511181758464" height="800" width="300" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
-						</Col>
-					</Row>
-
-					<Row className='header my-3 p-3 mb-0 pb-0'>
-						
-				
-						
-						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7207009714264510464" height="600" width="300" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
-						</Col>
-
-						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
-							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7225113647813988352" height="600" width="300" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
-						</Col>
-
-					
-					</Row>
 					
 					
 
 				</section>
 				<section id='about' className='about'>
 
-					<Row className='flex m-3'>
-						<h2 className='text-center p-3'>Sign Up For Up-To-Date Information</h2>
-						<h2 className='text-center p-3'>or contact us 609-760-4332</h2>
-						<h2 className='text-center p-3'>Connor.Montagano@nmrk.com</h2>
+					<Row className='flex m-2'>
+						<h2 className='text-center p-3'>Contact Us</h2>
+						<h2 className='text-center p-3'>For More Information</h2>
+						
 						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
 						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmXwMBoiZP_jE5EoxtLJGV3mrZN3YEmgCJYg-8CaGcPD-8Lg/viewform?embedded=true" width="1200" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 						</Col>

@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Rubik:wght@300;400;700&display=swap');
 
 :root {
-    --clr-primary: #d3e3fd;
+    --clr-primary: #f0f0f0;
     --clr-secondary: #ffffff;
     --clr-text-light: #030303;
+    --clr-text-nav: #000000;
     --clr-text-dark: #030303;
-    --clr-button-bg-1: #3586C6;
+    --clr-button-bg-1: #c2d7f7;
     --clr-button-bg-2: #44E6FF;
     --clr-button-bg-3: #FF7F50;
 }
@@ -35,7 +36,8 @@ body {
 }
 
 nav {
-    height: 10vh;
+    height: 7vh;
+    background: var(--clr-button-bg-1);
 }
 
 main {
@@ -101,7 +103,7 @@ h3 {
 /* LINK / BUTTON STYLES */
 a {
     display: block;
-    color: var(--clr-text-light);
+    color: var(--clr-text-nav);
     font-weight: 700;
     text-decoration: none;
 

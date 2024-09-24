@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Rubik:wght@300;400;700&display=swap');
 
 :root {
-    --clr-primary: #030303;
-    --clr-secondary: #1E1E1E;
-    --clr-text-light: #F2ECFF;
+    --clr-primary: #d3e3fd;
+    --clr-secondary: #ffffff;
+    --clr-text-light: #030303;
     --clr-text-dark: #030303;
     --clr-button-bg-1: #3586C6;
     --clr-button-bg-2: #44E6FF;

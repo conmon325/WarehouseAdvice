@@ -202,7 +202,7 @@ function App() {
 						<h2 className='text-center p-3'>Contact Us</h2>
 						<h2 className='text-center p-3'>For More Information</h2>
 						
-						<Col md={5} lg={4} xl={5} xxl={4} className='header my-3 p-3 mb-0 pb-0'>
+						<Col md={5} lg={4} xl={5} xxl={4} className='text-center p-3'>
 						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmXwMBoiZP_jE5EoxtLJGV3mrZN3YEmgCJYg-8CaGcPD-8Lg/viewform?embedded=true" width="1200" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 						</Col>
 						<Col md={5} lg={4} xl={5} xxl={4}>

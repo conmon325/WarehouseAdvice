@@ -9,7 +9,7 @@ const Navbar = ({ web3Handler, account, explorerURL }) => {
                 rel="noopener noreferrer"
             >
                 <img src={logo} className="App-logo" alt="logo" />
-                Warehouse Advice
+                NJ Warehouse Finder
             </a>
 
            

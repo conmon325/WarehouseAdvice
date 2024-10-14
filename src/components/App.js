@@ -194,6 +194,52 @@ function App() {
 						</Col>
 					</Row>
 
+					<Row className='flex m-2'>
+						<h2 className='text-center p-0'>Market Insight</h2>
+						<h2 className='text-center p-0'>Video Library</h2>
+						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
+							<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7189622504812892160" height="800" width="300" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>						</Col>
+						<Col md={5} lg={4} xl={5} xxl={4}>
+
+						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
+						<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7239609511181758464" height="800" width="300" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>						</Col>
+						<Col md={5} lg={4} xl={5} xxl={4}></Col>
+
+					
+						
+							{isError ? (
+								<p>{message}</p>
+							) : (
+								<div>
+									
+								</div>
+							)}
+						</Col>
+					</Row>
+
+
+					<Row className='flex m-2'>
+						
+						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
+						<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7225113647813988352" height="573" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>						</Col>
+						<Col md={5} lg={4} xl={5} xxl={4}>
+
+						<Col md={5} lg={4} xl={5} xxl={4} className='text-center'>
+						<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7207009714264510464" height="625" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>						</Col>
+						<Col md={5} lg={4} xl={5} xxl={4}></Col>
+
+					
+						
+							{isError ? (
+								<p>{message}</p>
+							) : (
+								<div>
+									
+								</div>
+							)}
+						</Col>
+					</Row>
+
 
 				</section>
 				<section id='about' className='about'>
